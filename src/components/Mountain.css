@@ -1,0 +1,52 @@
+/* Mountain.css */
+
+.mountain-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(13, 13, 86); /* Set background color */
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .heading {
+    font-weight: bold;
+    color: white; /* Set text color */
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin-top: 10px; 
+    margin-left: 10px;
+    padding-right: 20px; /* Add right padding */
+  }
+  
+  .heading h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Add bottom margin */
+    color: white;
+  }
+  
+  .heading p {
+    margin-bottom: 10px; /* Add bottom margin */
+    color: white;
+  }
+
+  .headding h4{
+    color: white;
+  }
+  
+  .image-container {
+    width: 156px; /* Adjust width as needed */
+    height: 156px; /* Adjust height as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    padding-top: -1px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
