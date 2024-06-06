@@ -1,12 +1,14 @@
+/* Global Styles */
 body,
 html {
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #2c3e50; /* Optional: Set background color */
+  background-color: #ffffff; /* Optional: Set background color */
 }
 
+/* Container for New Hike Section */
 .NewHike {
   background-image: url("../images/NewHike.png");
   background-size: cover;
@@ -14,25 +16,70 @@ html {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
+  position: relative;
 }
 
+/* Title H1 Styles */
 .NewHike h1 {
   font-size: 3em;
   font-weight: bold;
   margin: 0 0 10px;
   color: white;
-  margin-left: 10px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
   padding-top: 10px;
 }
 
+/* Subtitle H2 Styles */
 .NewHike h2 {
   color: white;
-  margin-left: 10px;
-  padding-top: 10px;
+  margin-left: 2px;
+  padding-top: 58px;
+  position: absolute;
+  top: 100px;
+  left: 10px;
 }
 
+/* Paragraph Styles */
 .NewHike p {
   color: white;
-  margin-left: 10px;
-  padding-top: 10px;
+  margin-left: 2px;
+  padding-top: 68px;
+  position: absolute;
+  top: 180px;
+  left: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .NewHike h1 {
+    font-size: 2.5em;
+  }
+
+  .NewHike h2 {
+    font-size: 1.5em;
+    top: 90px;
+  }
+
+  .NewHike p {
+    font-size: 1em;
+    top: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .NewHike h1 {
+    font-size: 2em;
+  }
+
+  .NewHike h2 {
+    font-size: 1.2em;
+    top: 80px;
+  }
+
+  .NewHike p {
+    font-size: 0.9em;
+    top: 140px;
+  }
 }
