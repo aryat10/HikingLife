@@ -84,6 +84,16 @@ Bootstrap is used in this project to help with responsive design and styling. He
     );
     ```
 
+## Template 
+
+
+![3526470](https://github.com/aryat10/HikingLife/assets/107941072/62a5fd3c-026a-4952-8a9a-4087799a9fe9)
+
+
+
+
+
+
 ## Usage
 
 To start the development server, run the following command:
