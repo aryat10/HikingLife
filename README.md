@@ -93,6 +93,17 @@ Bootstrap is used in this project to help with responsive design and styling. He
 
 
 
+## Sample Video of the Website
+
+
+
+
+https://github.com/aryat10/HikingLife/assets/107941072/1a745778-fe81-4ef2-91aa-cd7846f134af
+
+
+
+
+
 
 ## Usage
 
