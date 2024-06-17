@@ -111,7 +111,10 @@ To start the development server, run the following command:
 
 ```bash
 npm run dev
+```
 
+## Link for the website
+https://hikiing-life.netlify.app/
 
 
 
